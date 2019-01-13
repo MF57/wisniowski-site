@@ -72,6 +72,33 @@ input, select, textarea {
 	appearance: none;
 }
 
+#contact-wrapper {
+	width: 50px;
+	height: 250px;
+	position: fixed;
+	right: 0;
+	top: 100px;
+	z-index: 500;
+	background-color: rgba(43, 52, 61, 0.4);
+	border: 2px solid white;
+	border-right: none;
+	border-radius: 2px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+#contact-wrapper .icon {
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+ 
+#contact-wrapper .icon.last-icon {
+	margin-bottom: 0;
+}
+
+
 /* Basic */
 
 	@-ms-viewport {
