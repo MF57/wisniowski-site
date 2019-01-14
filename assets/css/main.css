@@ -3473,6 +3473,10 @@ input, select, textarea {
 			top: 0;
 		}
 
+		#header ul li {
+			margin-right: 10px;
+		}
+
 			#header h1 a {
 				border: 0;
 				display: block;
@@ -3486,6 +3490,10 @@ input, select, textarea {
 						font-size: 0.8em;
 					}
 
+					#header li.contact-nav {
+						display: none;
+					}
+
 				}
 
 		#header nav {
@@ -3494,6 +3502,10 @@ input, select, textarea {
 			position: absolute;
 			right: 0;
 			top: 0;
+		}
+
+		#header li.contact-nav {
+			font-size: 14px;
 		}
 
 			#header nav > ul {
@@ -3562,7 +3574,7 @@ input, select, textarea {
 			background: transparent;
 		}
 
-			#header.alt h1 {
+			#header.alt h1, #header.alt ul {
 				pointer-events: none;
 				opacity: 0;
 			}
