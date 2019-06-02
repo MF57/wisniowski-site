@@ -99,6 +99,107 @@ input, select, textarea {
 }
 
 
+
+
+
+.offer-wrapper {
+	background-color: #242b32;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.offer-wrapper .offer-title {
+	font-size: 36px;
+}
+
+.title-underline {
+	margin-top: -28px;
+	border-bottom: 10px solid #fed805;
+}
+
+.title-underline.offer-underline {
+	width: 190px;
+	margin-left: -4px;
+	margin-bottom: 20px;
+}
+
+.offer-description {
+	font-size: 30px;
+	margin: 10px 0;
+	width: 70vw;
+}
+
+.icon-grid {
+	display: flex;
+	width: 60vw;
+	margin-bottom: 50px;
+}
+
+.icon-column {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.icon-wrapper {
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.icon-wrapper .icon {
+	width: 200px;
+	height: 200px;
+}
+
+.icon.icon-custom {
+	margin-left: -25px;
+}
+
+.icon.custom-2-icon {
+	margin-bottom: -30px;
+}
+
+.offer-end-description {
+	font-size: 26px;
+}
+
+.another-offer-wrapper {
+	margin: 30px 0;
+	width: 70vw;
+
+}
+
+.another-offer-description {
+	text-align: left;
+	font-size: 30px;
+	margin: 30px 0;
+}
+
+/***************REFERAL*****************/
+
+.referral-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.referral-wrapper .referral-title {
+	font-size: 36px;
+}
+
+.title-underline.referral-underline {
+	width: 290px;
+	margin-left: -7px;
+	margin-bottom: 20px;
+}
+
+
+
+
 /* Basic */
 
 	@-ms-viewport {
