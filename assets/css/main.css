@@ -179,6 +179,32 @@ input, select, textarea {
 	margin: 30px 0;
 }
 
+
+
+@media screen and (max-width: 736px) {
+
+	.offer-description,  .another-offer-description {
+		text-align: center;
+		font-size: 20px;
+	}
+
+	.offer-end-description {
+		text-align: center;
+		font-size: 16px;
+	}
+
+	.another-offer-wrapper {
+		margin-bottom: -10px;
+		margin-top: 70px;
+	}
+
+	.icon-grid {
+		flex-direction: column;
+	}
+
+}
+
+
 /***************REFERAL*****************/
 
 .referral-wrapper {
@@ -195,6 +221,42 @@ input, select, textarea {
 	width: 290px;
 	margin-left: -7px;
 	margin-bottom: 20px;
+}
+
+.referral-icon-grid {
+	display: flex;
+	margin-top: 50px;
+}
+
+.referral-icon-wrapper {
+	margin: 0 20px;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(36, 43, 50, 0.5);
+	align-items: center;
+	width: 300px;
+	height: 300px;
+}
+
+.referral-icon {
+	width: 200px;
+	height: 200px;
+}
+
+.referral-icon.custom-icon {
+	margin-left: -23px;
+}
+
+@media screen and (max-width: 736px) {
+
+	.referral-icon-grid {
+		flex-direction: column;
+	}
+
+	.referral-icon-wrapper {
+		margin: 20px 0;
+	}
+
 }
 
 
